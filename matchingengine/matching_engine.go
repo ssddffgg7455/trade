@@ -8,7 +8,6 @@ import (
 	"trade/orderbook"
 )
 
-// 可hash拆分 或按币种拆分
 var matchingEngines = make(map[string]*MatchingEngine)
 var matchingEnginesMu sync.RWMutex
 
